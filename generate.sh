@@ -12,16 +12,19 @@ docker run \
         -o /local/openapi \
         -p enumClassPrefix=true \
         -p skipFormModel=true
-rm openapi/api_*.go \
-    openapi/.travis.yml \
-    openapi/client.go \
-    openapi/configuration.go \
-    openapi/git_push.sh \
-    openapi/go.mod \
+rm openapi/go.mod \
     openapi/go.sum \
-    openapi/response.go \
-    openapi/api/openapi.yaml \
-    openapi/docs/*Api.md
+    openapi/git_push.sh
+#rm openapi/api_*.go \
+#    openapi/.travis.yml \
+#    openapi/client.go \
+#    openapi/configuration.go \
+#    openapi/git_push.sh \
+#    openapi/go.mod \
+#    openapi/go.sum \
+#    openapi/response.go \
+#    openapi/api/openapi.yaml \
+#    openapi/docs/*Api.md
 
 echo "module github.com/alapidas/tdameritrade-openapi
 go 1.13" > go.mod

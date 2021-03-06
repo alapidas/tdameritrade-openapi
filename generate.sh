@@ -23,6 +23,6 @@ rm openapi/api_*.go \
     openapi/api/openapi.yaml \
     openapi/docs/*Api.md
 
-echo "module gitlab.com/brokerage-api/tdameritrade-openapi
+echo "module github.com/alapidas/tdameritrade-openapi
 go 1.13" > go.mod
 

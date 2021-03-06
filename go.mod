@@ -1,2 +1,2 @@
-module gitlab.com/brokerage-api/tdameritrade-openapi
+module github.com/alapidas/tdameritrade-openapi
 go 1.13
